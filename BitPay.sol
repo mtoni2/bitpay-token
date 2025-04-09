@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract BitPay is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
-    constructor() ERC20("BitPay", "BTY") Ownable(msg.sender) {
+    constructor() ERC20("BitPay", "BPY") Ownable(msg.sender) {
         _mint(msg.sender, 1_000_000_000 * 10 ** decimals());
     }
 
