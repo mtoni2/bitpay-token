@@ -1,11 +1,11 @@
-# BitPay (BTY)
+# BitPay (BPY)
 
-BitPay (BTY) es un token creado en la red BSC con el objetivo de brindar una solución sólida y moderna en el mundo cripto. El proyecto busca crecer junto a su comunidad y generar un impacto positivo en el ecosistema blockchain.
+BitPay (BPY) es un token creado en la red BSC con el objetivo de brindar una solución sólida y moderna en el mundo cripto. El proyecto busca crecer junto a su comunidad y generar un impacto positivo en el ecosistema blockchain.
 
 ## Información básica
 
 - **Nombre del token**: BitPay  
-- **Símbolo**: BTY  
+- **Símbolo**: BPY  
 - **Red**: Binance Smart Chain (BSC)  
 - **Suministro inicial**: 1,000,000,000 BTY  
 - **Contrato**: _Próximamente_
