@@ -61,3 +61,39 @@ code {
 .button:hover {
   background-color: #00cccc;
 }
+.about {
+  background-color: #0A0A0A;
+  color: white;
+  padding: 60px 20px;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #00FFFF;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #CCCCCC;
+}
+
+@media (max-width: 600px) {
+  .about h2 {
+    font-size: 1.6rem;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+  }
+}
