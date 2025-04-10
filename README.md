@@ -1,22 +1,39 @@
-# BitPay (BPY)
+# BitPay (BPY) - Token Landing Page
 
-BitPay (BPY) es un token creado en la red BSC con el objetivo de brindar una solución sólida y moderna en el mundo cripto. El proyecto busca crecer junto a su comunidad y generar un impacto positivo en el ecosistema blockchain.
+Sitio web simple para el token **BitPay (BPY)** en la Binance Smart Chain.
 
-## Información básica
+## 🚀 Contrato del Token
 
-- **Nombre del token**: BitPay  
-- **Símbolo**: BPY  
-- **Red**: Binance Smart Chain (BSC)  
-- **Suministro inicial**: 1,000,000,000 BTY  
-- **Contrato**: _Próximamente_
+```
+0xa22af53da85847a4a5C0C19c18C7c084Ee837a90
+```
 
-## Funcionalidades
+[Ver en BscScan](https://bscscan.com/token/0xa22af53da85847a4a5C0C19c18C7c084Ee837a90)
 
-- 🔥 Quemado de tokens (`burn`)  
-- ⏸️ Pausar transferencias (`pause/unpause`)  
-- 🪙 Minteo por el propietario (`mint`)  
-- 👑 Propiedad del contrato (`Ownable`)
+## 🧑‍💻 Despliegue en GitHub Pages
 
-## Página oficial
+1. Clonar este repositorio:
+```bash
+git clone https://github.com/tu-usuario/bitpay-landing.git
+```
 
-👉 [https://mtoni2.github.io/bitpay-token/](https://mtoni2.github.io/bitpay-token/)
+2. Ir al directorio:
+```bash
+cd bitpay-landing
+```
+
+3. Hacer push a GitHub:
+```bash
+git add .
+git commit -m "Landing de BitPay"
+git push origin main
+```
+
+4. Ir a **Settings > Pages** en tu repo de GitHub  
+   Seleccionar `main` como branch y carpeta `/root` o `/docs` si lo moviste.
+
+5. ¡Listo! Tu sitio estará en:
+
+```
+https://tu-usuario.github.io/bitpay-landing/
+```
