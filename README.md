@@ -14,7 +14,7 @@ Sitio web simple para el token **BitPay (BPY)** en la Binance Smart Chain.
 
 1. Clonar este repositorio:
 ```bash
-git clone https://github.com/tu-usuario/bitpay-landing.git
+git clone https://github.com/mtoni2/bitpay-landing.git
 ```
 
 2. Ir al directorio:
@@ -35,5 +35,5 @@ git push origin main
 5. ¡Listo! Tu sitio estará en:
 
 ```
-https://tu-usuario.github.io/bitpay-landing/
+https://mtoni2.github.io/bitpay-landing/
 ```
