@@ -35,5 +35,5 @@ git push origin main
 5. ¡Listo! Tu sitio estará en:
 
 ```
-https://mtoni2.github.io/bitpay-landing/
+https://mtoni2.github.io/bitpay-token/
 ```
