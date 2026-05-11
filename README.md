@@ -60,8 +60,8 @@ Si necesitas desplegar este sitio en GitHub Pages desde cero:
 
 ## 📄 Documentación Adicional
 
-* [Whitepaper en Español](whitepaper_spanish.pdf)
-* [Whitepaper en Inglés](whitepaper_english.pdf)
+* [Whitepaper en Español](whitepaperspanish.hmtl)
+* [Whitepaper en Inglés](whitepaperenglish.html)
 * [Política de Privacidad en Español](politica-de-privacidad.pdf)
 * [Privacy Policy in English](privacy-policy.pdf)
 * [Contrato Inteligente (BitPay.sol)](BitPay.sol)
