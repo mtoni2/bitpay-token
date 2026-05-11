@@ -60,7 +60,7 @@ Si necesitas desplegar este sitio en GitHub Pages desde cero:
 
 ## 📄 Documentación Adicional
 
-* [Whitepaper en Español](whitepaperspanish.hmtl)
+* [Whitepaper en Español](whitepaperspanish.html)
 * [Whitepaper en Inglés](whitepaperenglish.html)
 * [Política de Privacidad en Español](politica-de-privacidad.pdf)
 * [Privacy Policy in English](privacy-policy.pdf)
