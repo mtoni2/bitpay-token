@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Roadmap - BPY</title>
+  <title>Roadmap - BPY v3.0</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     :root {
@@ -11,6 +11,8 @@
       --accent-color: #00FFFF;
       --text-color: #ffffff;
       --secondary-color: #888;
+      --done-color: #27ae60;
+      --ongoing-color: #f39c12;
     }
 
     * {
@@ -39,38 +41,74 @@
 
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
 
     .bit {
       color: var(--accent-color);
     }
 
-    .pay {
-      color: var(--text-color);
+    .version-info {
+      color: var(--secondary-color);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
     }
 
     .section {
       background-color: #111;
       padding: 1.5rem;
       border-radius: 10px;
-      margin-top: 2rem;
+      margin-top: 1.5rem;
+      text-align: left;
+      border-left: 4px solid var(--secondary-color);
+    }
+
+    .section.completed {
+      border-left-color: var(--done-color);
+    }
+
+    .section.active {
+      border-left-color: var(--ongoing-color);
     }
 
     .section h2 {
       color: var(--accent-color);
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+      margin-bottom: 0.8rem;
+      display: flex;
+      justify-content: space-between;
     }
 
-    .section p {
-      font-size: 1rem;
+    .status-tag {
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .tag-completed { background-color: var(--done-color); color: white; }
+    .tag-active { background-color: var(--ongoing-color); color: white; }
+
+    .section ul {
+      list-style: none;
       color: var(--secondary-color);
-      line-height: 1.6;
+    }
+
+    .section ul li {
+      margin-bottom: 0.5rem;
+      position: relative;
+      padding-left: 1.2rem;
+    }
+
+    .section ul li::before {
+      content: "•";
+      color: var(--accent-color);
+      position: absolute;
+      left: 0;
     }
 
     .button-container {
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
 
     .button {
@@ -88,64 +126,56 @@
       background-color: #00dddd;
     }
 
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 2rem;
-      }
-      .section p {
-        font-size: 0.95rem;
-      }
+    .transparency-note {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: var(--secondary-color);
+      font-style: italic;
+      line-height: 1.4;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1><span class="bit">BPY</span> Roadmap</h1>
+    <p class="version-info">Actualización: Mayo 2026 - Estrategia de Lanzamiento Controlado</p>
 
-    <div class="section">
-      <h2>Q2 2025</h2>
-      <p>
-        - Lanzamiento del token BPY en la red BSC.<br />
-        - Publicación del sitio web oficial y whitepaper v2.1.<br />
-        - Listado del token en PancakeSwap (par BNB/BPY).<br />
-        - Inicio de presencia en redes sociales (Facebook, LinkedIn, Discord).<br />
-        - Desarrollo inicial de la demo de billetera.
-      </p>
+    <div class="section completed">
+      <h2>Etapa 1: Validación Técnica <span class="status-tag tag-completed">Completada</span></h2>
+      <ul>
+        <li>Lanzamiento inicial controlado de 450.000 BPY en la red BSC.</li>
+        <li>Despliegue del contrato inteligente basado en OpenZeppelin.</li>
+        <li>Verificación pública del código en BscScan.</li>
+        <li>Publicación de la infraestructura técnica base en GitHub.</li>
+      </ul>
+    </div>
+
+    <div class="section active">
+      <h2>Etapa 2: Capitalización y Utilidad <span class="status-tag tag-active">En curso</span></h2>
+      <ul>
+        <li>Búsqueda de socios estratégicos e inversión semilla para financiar la infraestructura[cite: 60].</li>
+        <li>Integración experimental del token con aplicaciones del ecosistema (Gestión de Stock / Arena).</li>
+        <li>Consolidación de la comunidad orgánica y presencia en redes sociales.</li>
+        <li>Ajuste de liquidez en mercado según ingresos de capital operativo.</li>
+      </ul>
     </div>
 
     <div class="section">
-      <h2>Q3 2025</h2>
-      <p>
-        - Publicación de la billetera móvil (versión beta) para Android e iOS.<br />
-        - Funciones básicas: pagos por alias, CVU o número de teléfono.<br />
-        - Registro en CoinGecko y CoinMarketCap.<br />
-        - Auditoría básica del contrato y transparencia del proyecto.<br />
-        - Expansión de la comunidad y marketing orgánico.
-      </p>
+      <h2>Etapa 3: Expansión de Ecosistema <span class="status-tag">Planificada</span></h2>
+      <ul>
+        <li>Gestión de listados en CoinMarketCap y CoinGecko tras alcanzar metas de capitalización[cite: 46].</li>
+        <li>Auditorías externas de seguridad con firmas especializadas[cite: 45].</li>
+        <li>Lanzamiento del portal de votación funcional de la DAO[cite: 49].</li>
+        <li>Activación del programa BPY Grants para proyectos comunitarios[cite: 31, 51].</li>
+      </ul>
     </div>
 
-    <div class="section">
-      <h2>Q4 2025</h2>
-      <p>
-        - Implementación de conversión automática a moneda local.<br />
-        - Integración con servicios DeFi seleccionados.<br />
-        - Mejoras de seguridad: autenticación biométrica y cifrado de datos.<br />
-        - Alianzas estratégicas con proyectos cripto y comercios.
-      </p>
-    </div>
-
-    <div class="section">
-      <h2>Q1 2026</h2>
-      <p>
-        - Lanzamiento oficial de la versión completa de la billetera.<br />
-        - Inclusión de funcionalidades avanzadas (staking, recompensas).<br />
-        - Expansión a nuevos mercados con soporte regionalizado.<br />
-        - Preparación para listados en exchanges centralizados (CEX).
-      </p>
+    <div class="transparency-note">
+      * Debido a la disponibilidad de capital, se ha priorizado la estabilidad técnica mediante un lanzamiento por fases. El suministro restante está reservado para el crecimiento sostenible del proyecto[cite: 7, 36].
     </div>
 
     <div class="button-container">
-      <a href="index.html" class="button">Volver</a>
+      <a href="index.html" class="button">Volver al Inicio</a>
     </div>
   </div>
 </body>
