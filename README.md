@@ -18,7 +18,7 @@ Official ecosystem and web suite for the **BitPay (BPY)** token deployed on the 
 
 Visit the official web bunker of BitPay (BPY) to access the purchase dApp, consult technical documentation, and verify security locks in real time:
 
-👉 **[https://github.io](https://github.io)**
+👉 **[https://mtoni2.github.io/bitpay-token/index.html](https://mtoni2.github.io/bitpay-token/index.html)**
 
 ---
 
@@ -58,7 +58,7 @@ Ecosistema oficial y suite web para el token **BitPay (BPY)** en la red BNB Smar
 
 Visita el búnker web oficial de BitPay (BPY) para acceder a la dApp de compra, consultar la documentación técnica y verificar los candados de seguridad en vivo:
 
-👉 **[https://github.io](https://github.io)**
+👉 **[https://mtoni2.github.io/bitpay-token/index.html](https://mtoni2.github.io/bitpay-token/index.html)**
 
 ---
 
