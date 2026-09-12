@@ -1,72 +1,77 @@
-# BitPay (BPY) - Token Landing Page
+# ?? BitPay (BPY) - Official Token Ecosystem
 
-Sitio web simple para el token **BitPay (BPY)** en la Binance Smart Chain, enfocado en gobernanza y utilidades comunitarias.
+Official ecosystem and web suite for the **BitPay (BPY)** token deployed on the BNB Smart Chain, focused on decentralized governance, community utilities, and the *Blockchain Participative Yield* protocol.
 
-## ðŸ”— Contrato del Token
+---
 
+## ?? Token Contract (BNB Smart Chain)
+
+```text
+0x... (Coming Soon - Launch September 2026)
 ```
-0xa22af53da85847a4a5C0C19c18C7c084Ee837a90
+
+> **Note:** The real contract address will be updated in this file at the exact second of the deployment on the dApp.
+
+---
+
+## ?? Official Website & Infrastructure
+
+Visit the official web bunker of BitPay (BPY) to access the purchase dApp, consult technical documentation, and verify security locks in real time:
+
+?? **[https://github.io](https://github.io)**
+
+---
+
+## ?? Official Documentation & Suite of Files
+
+Total transparency is the pillar of our protocol. All technical documents and roadmaps are publicly accessible and integrated into this repository:
+
+* ?? **[Whitepaper in Spanish](whitepaperspanish.html)** - Technical bases, philosophy, and token economics.
+* ?? **[Whitepaper in English](whitepaperenglish.html)** - Official technical documentation for the global community.
+* ??? **[Roadmap BPY v3.0](roadmap.html)** - Strategic roadmap divided into 3 consolidation stages.
+
+---
+
+## ??? Legal Disclaimer
+
+This project and the BPY token are independent community tools focused on decentralized governance and utility within the Web3 ecosystem. It holds no relationship, affiliation, sponsorship, or commercial link with the U.S.-based company BitPay Inc. The BPY ticker stands for "Blockchain Participative Yield".
+
+================================================================================
+
+# ?? BitPay (BPY) - Ecosistema Oficial del Token
+
+Ecosistema oficial y suite web para el token **BitPay (BPY)** en la red BNB Smart Chain, enfocado en gobernanza descentralizada, utilidades comunitarias y el protocolo *Blockchain Participative Yield*.
+
+---
+
+## ?? Contrato del Token (BNB Smart Chain)
+
+```text
+0x... (Pr¨®ximamente - Lanzamiento Septiembre 2026)
 ```
 
-[Ver en BscScan](https://bscscan.com/token/0xa22af53da85847a4a5C0C19c18C7c084Ee837a90)
-
-## ðŸš€ Sitio Web Oficial
-
-Visita el sitio web oficial de BitPay (BPY) para mÃ¡s informaciÃ³n, Whitepapers y hoja de ruta:
-
-[https://mtoni2.github.io/bitpay-token/](https://mtoni2.github.io/bitpay-token/)
+> **Note:** La direcci¨®n del contrato real e institucional se actualizar¨¢ en este archivo en el mismo segundo del despliegue en la dApp.
 
 ---
 
-## ðŸ’» CÃ³mo Empezar (Para Desarrolladores y Usuarios)
+## ?? Sitio Web Oficial e Infraestructura
 
-Para clonar este repositorio y ejecutar el proyecto localmente, sigue estos pasos:
+Visita el b¨²nker web oficial de BitPay (BPY) para acceder a la dApp de compra, consultar la documentaci¨®n t¨¦cnica y verificar los candados de seguridad en vivo:
 
-1.  **Clonar el Repositorio:**
-    ```bash
-    git clone [https://github.com/mtoni2/bitpay-token.git](https://github.com/mtoni2/bitpay-token.git)
-    ```
-
-2.  **Navegar al Directorio del Proyecto:**
-    ```bash
-    cd bitpay-token
-    ```
-
-3.  **Abrir el Sitio Web Localmente:**
-    Simplemente abre el archivo `index.html` en tu navegador web preferido (doble clic en el archivo).
+?? **[https://github.io](https://github.io)**
 
 ---
 
-## âš™ï¸ Despliegue en GitHub Pages (Para Referencia - Â¡TÃº ya lo hiciste!)
+## ?? Documentaci¨®n Oficial y Suite de Archivos
 
-Si necesitas desplegar este sitio en GitHub Pages desde cero:
+La transparencia total es el pilar de nuestro protocolo. Todos los documentos t¨¦cnicos y hojas de ruta son de acceso p¨²blico y est¨¢n integrados en este repositorio:
 
-1.  Clona este repositorio.
-2.  Navega al directorio del proyecto (`cd bitpay-token`).
-3.  AsegÃºrate de que la rama principal sea `main`. Si no lo es, reconfigÃºrala o renÃ³mbrala.
-4.  Haz push a GitHub (si es un repositorio nuevo):
-    ```bash
-    git add .
-    git commit -m "Initial commit of BitPay project files"
-    git push -u origin main
-    ```
-5.  Ve a **Settings > Pages** en tu repositorio de GitHub.
-6.  En "Build and deployment", selecciona `Deploy from a branch`.
-7.  Para "Branch", selecciona `main` y la carpeta `/ (root)`.
-8.  Haz clic en "Save".
-9.  Â¡Listo! Tu sitio estarÃ¡ en la URL de GitHub Pages de tu repositorio (ej: `https://mtoni2.github.io/bitpay-token/`).
+* ?? **[Whitepaper en Espa?ol](whitepaperspanish.html)** - Bases t¨¦cnicas, filosof¨ªa y econom¨ªa del token.
+* ?? **[Whitepaper in English](whitepaperenglish.html)** - Documentaci¨®n t¨¦cnica oficial para la comunidad global.
+* ??? **[Roadmap BPY v3.0](roadmap.html)** - Hoja de ruta estrat¨¦gica dividida en 3 etapas de consolidaci¨®n.
 
 ---
 
-## ðŸ“„ DocumentaciÃ³n Adicional
+## ??? Aviso Legal Importante
 
-* [Whitepaper en EspaÃ±ol](whitepaperspanish.html)
-* [Whitepaper en InglÃ©s](whitepaperenglish.html)
-* [PolÃ­tica de Privacidad en EspaÃ±ol](politica-de-privacidad.pdf)
-* [Privacy Policy in English](privacy-policy.pdf)
-* [Contrato Inteligente (BitPay.sol)](BitPay.sol)
-* [Script de Despliegue (deploy.js)](deploy.js)
-
----
-
-**Aviso Legal Importante:** Este proyecto y el token BPY no tienen afiliaciÃ³n ni relaciÃ³n alguna con BitPay Inc. BPY es un proyecto comunitario independiente centrado en la gobernanza y utilidad en el ecosistema Web3.
+Este proyecto y el token BPY son herramientas comunitarias independientes centradas en la gobernanza y utilidad descentralizada dentro del ecosistema Web3. No guarda ning¨²n tipo de relaci¨®n, afiliaci¨®n, patrocinio ni v¨ªnculo comercial con la empresa estadounidense BitPay Inc. El ticker BPY corresponde al acr¨®nimo de "Blockchain Participative Yield".
