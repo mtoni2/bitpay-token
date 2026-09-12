@@ -1,197 +1,270 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BitPay (BPY)</title>
-  <meta name="description" content="BitPay (BPY) es un token en la red BSC enfocado en gobernanza, utilidad y adopción cripto con transparencia." />
-  <meta name="keywords" content="BitPay, BPY, token BPY, cripto, Binance Smart Chain, BSC, Web3, DeFi" />
-  <meta name="author" content="BitPay Community" />
-  <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    :root {
-      --bg-color: #0A0A0A;
-      --accent-color: #00FFFF;
-      --text-color: #ffffff;
-      --secondary-color: #888;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitPay (BPY) - Official Token Ecosystem</title>
+	<meta name="description" content="BitPay (BPY) es un token en BNB Chain enfocado en gobernanza, utilidad y adopción cripto con transparencia." />
+    <meta name="keywords" content="BitPay, BPY, token BPY, cripto, BNB Smart Chain, BSC, Web3, DeFi, Four.meme" />
+    <meta name="author" content="BitPay Community" />
+    <meta name="robots" content="index, follow" />
+    <style>
+        :root {
+            --bg-color: #060b13; /* Fondo oscuro espacial profundo */
+            --card-bg: #0d1527; /* Azul marino oscuro para las cajas */
+            --accent-cyan: #00f0ff; /* Cian eléctrico institucional de BitPay */
+            --accent-glow: #70f8ff; /* Cian brillante para efectos de iluminación */
+            --text-silver: #e2e8f0; /* Plateado claro para lectura cómoda */
+            --text-muted: #a0aec0; /* Gris plata para textos secundarios */
+            --white: #ffffff;
+        }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 2rem;
-      flex-direction: column;
-    }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-silver);
+            line-height: 1.6;
+            padding: 20px;
+        }
 
-    .container {
-      max-width: 700px;
-      width: 100%;
-      text-align: center;
-    }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, var(--card-bg) 0%, #03060c 100%);
+            border: 2px solid var(--accent-cyan);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 0 25px rgba(0, 240, 255, 0.15);
+        }
 
-    .logo {
-      width: 120px;
-      height: 120px;
-      object-fit: contain;
-      margin: 0 auto 1rem;
-    }
+        header {
+            text-align: center;
+            padding-bottom: 25px;
+            border-bottom: 2px solid var(--accent-cyan);
+            margin-bottom: 30px;
+        }
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
+        .logo-img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.7));
+        }
 
-    .bit {
-      color: var(--accent-color);
-    }
+        h1 {
+            color: var(--white);
+            font-size: 2.6rem;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+        }
 
-    .pay {
-      color: var(--text-color);
-    }
+        .tagline {
+            color: var(--accent-glow);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            margin-top: 5px;
+            letter-spacing: 1px;
+        }
 
-    .description {
-      font-size: 1rem;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-    }
+        .contract-box {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 1px dashed var(--accent-cyan);
+            padding: 14px;
+            border-radius: 6px;
+            text-align: center;
+            margin: 25px 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.95rem;
+        }
 
-    code {
-      background-color: #1a1a1a;
-      padding: 0.3rem 0.6rem;
-      border-radius: 4px;
-      display: block;
-      margin-top: 0.5rem;
-      word-break: break-word;
-    }
+        .contract-box strong {
+            color: var(--accent-cyan);
+        }
 
-    .button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background-color: var(--accent-color);
-      color: var(--bg-color);
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-      transition: background 0.3s;
-    }
+        .btn-main {
+            display: block;
+            width: 100%;
+            max-width: 320px;
+            margin: 25px auto;
+            padding: 14px 28px;
+            background-color: var(--accent-cyan);
+            color: #03060c;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+            transition: all 0.3s ease;
+        }
 
-    .button:hover {
-      background-color: #00dddd;
-    }
+        .btn-main:hover {
+            background-color: var(--white);
+            color: #03060c;
+            box-shadow: 0 0 25px var(--accent-glow);
+            transform: translateY(-2px);
+        }
 
-    .section {
-      background-color: #111;
-      padding: 1.5rem;
-      border-radius: 10px;
-      margin-top: 2rem;
-    }
+        h2 {
+            color: var(--white);
+            font-size: 1.6rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent-cyan);
+            padding-left: 12px;
+        }
 
-    .section h2 {
-      color: var(--accent-color);
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
+        p {
+            margin-bottom: 15px;
+            color: var(--text-silver);
+            text-align: justify;
+        }
 
-    .section p {
-      font-size: 1rem;
-      color: var(--secondary-color);
-      line-height: 1.6;
-    }
+        .grid-docs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
 
-    ol {
-      text-align: left;
-      margin: 1rem 0;
-      color: var(--secondary-color);
-    }
+        .btn-doc {
+            display: block;
+            padding: 12px;
+            background-color: rgba(0, 240, 255, 0.05);
+            border: 1px solid var(--accent-cyan);
+            color: var(--white);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
 
-    footer {
-      background-color: #0F0F0F;
-      color: #ffffff;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      margin-top: 3rem;
-    }
+        .btn-doc:hover {
+            background-color: var(--accent-cyan);
+            color: #03060c;
+            box-shadow: 0 0 12px rgba(0, 240, 255, 0.3);
+        }
 
-    footer p {
-      margin-bottom: 10px;
-    }
+        ol {
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
 
-    @media (max-width: 480px) {
-      .logo {
-        width: 100px;
-        height: 100px;
-      }
-      h1 {
-        font-size: 2rem;
-      }
-      .description, .section p {
-        font-size: 0.95rem;
-      }
-    }
-  </style>
+        li {
+            margin-bottom: 10px;
+        }
+
+        .section-separator {
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--accent-cyan), transparent);
+            margin: 50px 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(0, 240, 255, 0.2);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        footer p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <img src="logo.png" alt="BitPay Logo" class="logo" />
-    <h1><span class="bit">Bit</span><span class="pay">Pay</span></h1>
-    <p class="description">
-      Token oficial BPY en la red BSC<br />
-      Dirección del contrato:
-      <code>0xa22af53da85847a4a5C0C19c18C7c084Ee837a90</code>
-    </p>
 
-    <a href="https://bscscan.com/token/0xa22af53da85847a4a5C0C19c18C7c084Ee837a90" class="button" target="_blank">Ver en BscScan</a>
+<div class="container">
+    <header>
+        <!-- Enlace a tu archivo logo.png en la raíz -->
+        <img src="logo.png" alt="BitPay Logo" class="logo-img">
+        <h1>BitPay (BPY)</h1>
+        <div class="tagline">Blockchain Participative Yield Protocol</div>
+    </header>
 
-    <div class="section">
-      <h2>¿Qué es BitPay?</h2>
-      <p>BitPay (BPY) es un token digital creado en la red BSC, diseñado para ofrecer velocidad, seguridad y transparencia en cada transacción. Es una iniciativa moderna y accesible para todos los usuarios del ecosistema cripto.</p>
+    <div class="contract-box">
+        <strong>Smart Contract Address:</strong> <span>0x... (Coming Soon)</span>
+    </div>
 
-      <h2>Funciones</h2>
-      <p>Cuenta con funciones avanzadas como pausado de transacciones, quemado de tokens y recuperación de activos enviados por error, BitPay pone en tus manos una herramienta poderosa y confiable para el mundo cripto.</p>
+    <a href="https://four.meme" target="_blank" class="btn-main">Buy on Four.meme</a>
 
-      <h2>Objetivo</h2>
-      <p>Nuestro objetivo es claro: impulsar la adopción de blockchain de forma ética y accesible, con una comunidad que valore la transparencia y la innovación.</p>
+    <!-- ================= ENGLISH SECTION ================= -->
+    <section>
+        <h2>What is BitPay (BPY)?</h2>
+        <p>BitPay (BPY) is a community token deployed on the BNB Chain, engineered under a 100% Fair Launch framework to ensure absolute transparency, equity, and decentralized community participation from genesis. By neutralizing traditional funding frictions, it establishes a reliable infrastructure for distributed Web3 environments.</p>
 
-      <h2 class="section-title">Whitepaper</h2>
-      <p class="section-text">
-        BitPay (BPY) es un token en la Binance Smart Chain que busca facilitar pagos digitales descentralizados y fomentar el ecosistema DeFi. Este documento explica sus fundamentos, funciones y visión a futuro.
-      </p>
-      <br>
-      <a href="whitepaperspanish.html" class="button" target="_blank">Leer Whitepaper en Español (HTML)</a><br><br>
-      <a href="whitepaperenglish.html" class="button" target="_blank">Read Whitepaper in English (HTML)</a>
-      <a href="roadmap.html" class="button">Ver Roadmap</a>
+        <h2>Purpose and Utility</h2>
+        <p>Serving as the core asset for governance and ecosystem rewards, BPY enables the community to actively participate in decision-making through decentralized mechanisms, gain access to future decentralized applications (dApps), and build long-term sustainable growth powered by open-market liquidity mechanics.</p>
 
-      <section id="como-comprar" class="section">
+        <h2>Documentation & Roadmap</h2>
+        <p>Review our official technical standards and strategic phases designed for long-term development:</p>
+        <div class="grid-docs">
+            <a href="whitepaperenglish.html" class="btn-doc">Whitepaper in English</a>
+            <a href="whitepaperspanish.html" class="btn-doc">Whitepaper in Spanish</a>
+            <a href="roadmap.html" class="btn-doc">View Roadmap</a>
+        </div>
+
+        <h2>How to Buy BitPay (BPY)</h2>
+        <ol>
+            <li>Install MetaMask on your mobile device or notebook browser.</li>
+            <li>Ensure your wallet has a sufficient BNB balance for the purchase and network gas fees.</li>
+            <li>Navigate to the official Four.meme launchpad dApp.</li>
+            <li>Connect your MetaMask wallet and search for the ticker <strong>BPY</strong>.</li>
+            <li>Input the desired BNB amount, confirm the transaction, and complete the swap!</li>
+            <li><em>Note: Upon completing the pre-programmed bonding curve milestones, the aggregate liquidity pool will be automatically migrated to PancakeSwap.</em></li>
+        </ol>
+    </section>
+	
+	<footer>
+        <p><strong>Disclaimer:</strong> This project is not affiliated with BitPay Inc. in any way. BPY is a community token focused on governance and utility within the Web3 ecosystem.</p>
+    </footer>
+
+    <!-- SEPARADOR VISUAL DE IDIOMAS -->
+    <div class="section-separator"></div>
+
+    <!-- ================= SECCIÓN EN ESPAÑOL ================= -->
+    <section>
+        <h2>¿Qué es BitPay (BPY)?</h2>
+        <p>BitPay (BPY) es un token comunitario en BNB Chain, diseñado bajo un modelo de emisión justa (<em>Fair Launch</em>) para garantizar transparencia, equidad y participación comunitaria desde el primer bloque.</p>
+
+        <h2>Propósito y Utilidad</h2>
+        <p>Diseñado como el motor de gobernanza e incentivos del ecosistema, BPY permite a la comunidad participar activamente en decisiones clave, acceder a futuras herramientas Web3 y fomentar el crecimiento descentralizado.</p>
+
+        <h2>Documentación y Hoja de Ruta</h2>
+        <p>Consulta las bases técnicas y la planificación estratégica del proyecto en nuestros documentos oficiales:</p>
+        <div class="grid-docs">
+            <a href="whitepaperspanish.html" class="btn-doc">Whitepaper en Español</a>
+            <a href="whitepaperenglish.html" class="btn-doc">Whitepaper in English</a>
+            <a href="roadmap.html" class="btn-doc">Ver Roadmap</a>
+        </div>
+
         <h2>Cómo comprar BitPay (BPY)</h2>
         <ol>
-          <li>Instalá MetaMask en tu navegador.</li>
-          <li>Agregá la red Binance Smart Chain.</li>
-          <li>Depositá BNB en tu wallet.</li>
-          <li>Accedé a PancakeSwap: <a href="https://pancakeswap.finance" target="_blank">pancakeswap.finance</a></li>
-          <li>Conectá tu wallet y pegá el contrato:<br /><code>0xa22af53da85847a4a5C0C19c18C7c084Ee837a90</code></li>
-          <li>Confirmá la compra y ¡listo!</li>
+            <li>Instalá MetaMask en tu celular o navegador.</li>
+            <li>Asegurate de tener saldo en BNB para realizar la compra y cubrir comisiones.</li>
+            <li>Ingresá a la plataforma oficial de Four.meme.</li>
+            <li>Conectá tu billetera MetaMask y buscá el ticker <strong>BPY</strong>.</li>
+            <li>Seleccioná el monto en BNB, confirmá la transacción ¡y listo!</li>
+            <li><em>Nota: Al completar la curva de vinculaciones, la liquidez se migrará automáticamente a PancakeSwap.</em></li>
         </ol>
-      </section>
-    </div>
-  </div>
+    </section>
 
-  <footer>
-    <p><strong>Aviso legal:</strong> Este proyecto no está afiliado de ninguna manera con BitPay Inc. BPY es un token comunitario centrado en la gobernanza y utilidad dentro del ecosistema Web3.</p>
-    <p><strong>Disclaimer:</strong> This project is not affiliated with BitPay Inc. in any way. BPY is a community token focused on governance and utility within the Web3 ecosystem.</p>
-  </footer>
+    <footer>
+        <p><strong>Aviso legal:</strong> Este proyecto no está afiliado de ninguna manera con BitPay Inc. BPY es un token comunitario centrado en la gobernanza y utilidad dentro del ecosistema Web3.</p>
+    </footer>
+</div>
+
 </body>
 </html>
