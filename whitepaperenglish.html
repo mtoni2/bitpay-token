@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BitPay Token (BPY) Whitepaper v3.0 - May 2026</title>
+    <title>BPY Token Whitepaper v3.0 - August 2026</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); }
-        h1, h2, h3 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        .version-badge { background: #3498db; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; display: inline-block; margin-bottom: 20px; }
+        h1, h2, h3 { color: #2c3e50; border-bottom: 2px solid #00FFFF; padding-bottom: 10px; }
+        .version-badge { background: #00FFFF; color: #0A0A0A; font-weight: bold; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; display: inline-block; margin-bottom: 20px; }
         table { width: 100%; border-collapse: collapse; margin: 20px 0; }
         th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
         th { background-color: #f2f2f2; }
         .warning-box { background: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin: 20px 0; font-style: italic; }
         .legal-box { font-size: 0.85em; color: #666; background: #eee; padding: 20px; border-radius: 5px; margin-top: 40px; }
-        .roadmap-stage { margin-bottom: 25px; padding-left: 15px; border-left: 3px solid #3498db; }
+        .roadmap-stage { margin-bottom: 25px; padding-left: 15px; border-left: 3px solid #00FFFF; }
         .status-done { color: #27ae60; font-weight: bold; }
         .status-ongoing { color: #f39c12; font-weight: bold; }
     </style>
@@ -22,92 +22,85 @@
 <body>
 
 <div class="container">
-    <div class="version-badge">Version 3.0 - May 2026</div>
+    <div class="version-badge">Version 3.0 - August 2026</div>
     <h1>Official Whitepaper – BPY Token</h1>
     <p><strong>BEP-20 Token for Governance and Community Utility</strong></p>
 
     <h2>1. Executive Summary</h2>
-    <p>BPY is a BEP-20 token built on the Binance Smart Chain with a 100% community-driven focus. Its purpose is to serve as a tool for decentralized governance and access to Web3 utilities, including DAO voting, educational staking, and incentive programs for developers.</p>
+    <p>BPY is a BEP-20 token deployed on the BNB Smart Chain designed with a 100% community-driven approach and a Fair Launch model. Its purpose is to serve as a tool for decentralized governance and access to Web3 utilities, including DAO voting, community incentive programs, and ecosystem growth.</p>
     <p><strong>Important Clarification:</strong> BPY is not a payment token, it is not a wallet, nor a financial transfer system, and it holds no relationship, affiliation, or commercial link with the U.S.-based company BitPay Inc.</p>
 
-        <h2>2. Tokenomics</h2>
-    <p>To ensure protocol security and market stability, the supply has been restructured under a phased launch model featuring controlled extreme scarcity.</p>
+    <h2>2. Tokenomics</h2>
+    <p>The project utilizes a transparent structure based on the bonding curve model through Four.meme, ensuring an equitable distribution from the very first block.</p>
     
     <table>
         <thead>
             <tr>
                 <th>Concept</th>
-                <th>Tokens</th>
+                <th>Tokens (BPY)</th>
                 <th>%</th>
                 <th>Details</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><strong>Scarcity Launch Phase (PinkSale)</strong></td>
-                <td>17,000,000</td>
-                <td>1.700%</td>
-                <td>Initial circulating supply for the automatic creation and funding of the liquidity pool.</td>
+                <td><strong>Fair Launch (Four.meme Curve)</strong></td>
+                <td>800,000,000</td>
+                <td>80.00%</td>
+                <td>Publicly available to the community via the bonding curve mechanism and subsequent migration to PancakeSwap.</td>
             </tr>
             <tr>
-                <td><strong>Locked Strategic Reserve</strong></td>
-                <td>782,928,335.60</td>
-                <td>78.300%</td>
-                <td>Locked in PinkLock with an automated 1M monthly release sequence for future phases.</td>
-            </tr>
-            <tr>
-                <td><strong>Team Reserve</strong></td>
+                <td><strong>Creator Strategic Reserve</strong></td>
                 <td>200,000,000</td>
-                <td>20.000%</td>
-                <td>Held in a secure wallet dedicated exclusively to infrastructure and ecosystem development.</td>
+                <td>20.00%</td>
+                <td>Initial allocation acquired through the <em>Create & Buy</em> feature dedicated to development, marketing, and future liquidity.</td>
             </tr>
         </tbody>
     </table>
-    <p><strong>Real Total Supply: 999,928,335.60 BPY</strong></p>
+    <p><strong>Fixed Total Supply: 1,000,000,000 BPY</strong></p>
 
     <div class="warning-box">
-        <strong>Transparency Note (August 2026):</strong> The total existing supply has been mathematically adjusted to 999,928,335.60 BPY following the permanent exclusion of tokens from the previous security incident. Initial circulation is strictly limited to 1.7% to maximize unit value and shield the ecosystem from whale manipulation.
+        <strong>Transparency Note (August 2026):</strong> The total supply is fully standardized at 1,000,000,000 BPY tokens. Upon reaching the bonding curve target on Four.meme, the accumulated liquidity is automatically deposited and locked on PancakeSwap to ensure market stability.
     </div>
-
 
     <h2>3. Project Roadmap</h2>
     
     <div class="roadmap-stage">
-        <h3>Stage 1: Technical Validation <span class="status-done">(Completed)</span></h3>
+        <h3>Stage 1: Architecture & Setup <span class="status-done">(Completed)</span></h3>
         <ul>
-            <li>Controlled launch of 450,000 BPY on the BSC network.</li>
-            <li>Deployment and verification of the contract on BscScan.</li>
-            <li>Publication of core infrastructure on GitHub.</li>
+            <li>Structuring of the 1,000,000,000 BPY fixed supply model on BNB Chain.</li>
+            <li>Design of the 20% strategic reserve allocation and separation of operational wallets.</li>
+            <li>Publication of core technical infrastructure and governance guidelines on GitHub.</li>
         </ul>
     </div>
 
     <div class="roadmap-stage">
-        <h3>Stage 2: Capitalization & Utility <span class="status-ongoing">(In Progress)</span></h3>
+        <h3>Stage 2: Launch & Capitalization <span class="status-ongoing">(In Progress)</span></h3>
         <ul>
-            <li>Search for seed investment and strategic partners to fund infrastructure and audits.</li>
-            <li>Experimental integration of the token with ecosystem management systems.</li>
-            <li>Market liquidity adjustments based on operating capital inflow.</li>
+            <li>Fair launch deployment via the bonding curve system on the Four.meme platform.</li>
+            <li>Transparent acquisition of the strategic reserve (200M BPY) at the creation block.</li>
+            <li>Automatic token graduation and initial liquidity injection on PancakeSwap.</li>
         </ul>
     </div>
 
     <div class="roadmap-stage">
         <h3>Stage 3: Ecosystem Expansion</h3>
         <ul>
-            <li>Management of listings on CoinMarketCap and CoinGecko upon reaching capital milestones.</li>
-            <li>External security audits with recognized firms.</li>
-            <li>Full activation of the DAO voting portal and BPY Grants program.</li>
+            <li>Token consolidation and visibility management across community indexers.</li>
+            <li>Evaluation of utility integrations with management tools and Web3 partner platforms.</li>
+            <li>Progressive rollout of the DAO voting portal for community governance decisions.</li>
         </ul>
     </div>
 
     <h2>4. Founding Team</h2>
     <p><strong>Marcelo Tonini (Argentina)</strong><br>
-    <em>Role: Founder and Community Developer</em><br>
-    Philosophy: Total transparency, active participation, and a focus on sustainable growth through strategic partners.</p>
+    <em>Role: Founder and Developer</em><br>
+    Philosophy: Total transparency, active participation, and a focus on sustainable, organic growth driven by the community.</p>
 
     <div class="legal-box">
-        <h3>9. Legal Disclaimer</h3>
-        <p>BPY is a community utility token based on the Binance Smart Chain. It does not represent a financial instrument, security, stock, or investment contract.</p>
-        <p><strong>Project Update (May 2026):</strong> Due to capital availability and current development conditions, the founding team has restructured the launch schedule. Technical stability is prioritized through a phased, controlled launch to ensure long-term project sustainability.</p>
+        <h3>5. Legal Disclaimer</h3>
+        <p>BPY is a community utility token based on the BNB Smart Chain. It does not represent a financial instrument, security, stock, or investment contract. The project is not registered with any financial regulatory authority.</p>
+        <p><strong>Project Update (August 2026):</strong> To optimize efficiency and protect the community, the team utilizes the bonding curve protocol on Four.meme, guaranteeing transparency in emission and initial liquidity.</p>
         <p><strong>BPY is not affiliated with, associated with, or endorsed by BitPay Inc.</strong> The name is an independent acronym for "Blockchain Participative Yield".</p>
     </div>
 </div>
